@@ -5,9 +5,7 @@ import Test from "./Test";
 export default function Product() {
     return (
       <>
-        <div>will display everything here</div>
-        <App1 />
-        <App2/>
+        <div>this is product component</div>
         <Test />
       </>
     );
