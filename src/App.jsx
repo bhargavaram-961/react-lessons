@@ -14,6 +14,7 @@ function App() {
         <Link to="/">App1</Link>-
         <Link to="/app2">App2</Link>-
         <Link to="/test">Test</Link>
+        <Link to="/product"><Product></Product></Link>
       </header>
       <hr />
       <main>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<App1/>}></Route>
           <Route path="/app2" element={<App2/>}></Route>
           <Route path="/test" element={<Test/>}></Route>
+          <Route path="/product" element={<Product/>}></Route>
         </Routes>
       </main>
       <hr />

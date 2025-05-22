@@ -1,3 +1,15 @@
+import App1 from "./App1";
+import App2 from "./App2";
+import Test from "./Test";
+
 export default function Product() {
-  return <h3>This is Product component</h3>;
+    return (
+      <>
+        <div>will display everything here</div>
+        <App1 />
+        <App2/>
+        <Test />
+      </>
+    );
+
 }
