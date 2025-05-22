@@ -23,7 +23,6 @@ function App() {
           <Route path="/" element={<App1/>}></Route>
           <Route path="/app2" element={<App2/>}></Route>
           <Route path="/test" element={<Test/>}></Route>
-          <Route path="/product" element={<Product/>}></Route>
         </Routes>
       </main>
       <hr />
