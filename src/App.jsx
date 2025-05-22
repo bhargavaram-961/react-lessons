@@ -14,7 +14,7 @@ function App() {
         <Link to="/">App1</Link>-
         <Link to="/app2">App2</Link>-
         <Link to="/test">Test</Link>
-        <Link to="/product"><Product></Product></Link>
+        <Link to="/product">Products</Link>
       </header>
       <hr />
       <main>
