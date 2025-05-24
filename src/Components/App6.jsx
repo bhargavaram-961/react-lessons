@@ -1,5 +1,5 @@
 import React from "react";
-import Fruit from "./Fruit";
+import Fruit from "./Fruits";
 export default function App6() {
   return (
     <div>

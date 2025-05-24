@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./Fruit.css"
+import "./Fruits.css"
 export default function Fruit(props) {
   return (
     <div>
