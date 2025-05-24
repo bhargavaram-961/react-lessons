@@ -1,5 +1,5 @@
 import "./App2.css";
-import Product from "./Product";
+import Product from "./Components/Product";
 export default function App2() {
   const products = [
     { id: 1, name: "Product 1", price: 23 },
