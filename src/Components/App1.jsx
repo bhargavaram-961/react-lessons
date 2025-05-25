@@ -1,7 +1,7 @@
 
-import Product from "./Components/Product";
-import Variant from "./Components/Variant";
-import Calc from "./Components/Calc";
+import Product from "./Product";
+import Variant from "./Variant";
+import Calc from "./Calc";
 export default function App1() {
   let a = 10;
   let b = 20;
