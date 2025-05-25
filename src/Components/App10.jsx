@@ -21,9 +21,7 @@ function ShoppingCart() {
         }
     };
 
-    const removefromcart=(productid)=>{
-        setCart(cart.filter(item=>item.id!== productid));
-    };
+  
 
     const updatequantity= (productid,change)=>{
         setCart(cart.map(item=>{
@@ -60,7 +58,6 @@ function ShoppingCart() {
                             <button onClick={()=>updatequantity(item.id, 1)}>+</button>
                         </div>
                         <span>${item.price*item.quantity}</span>
-                        <button onClick={() => removefromcart(item.id)}>Delete</button>
                     </div>
                 ))}
                 
