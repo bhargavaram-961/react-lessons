@@ -10,6 +10,7 @@ import App5 from "./Components/App5";
 import App6 from "./Components/App6";
 import App7 from "./Components/App7";
 import App8 from "./Components/App8";
+import App9 from "./Components/App9";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import "./App.css";
