@@ -9,8 +9,9 @@ import App4 from "./Components/App4";
 import App5 from "./Components/App5";
 import App6 from "./Components/App6";
 import App7 from "./Components/App7";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import App8 from "./Components/App8";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -26,6 +27,7 @@ function App() {
          <Route path="/app5" element={<App5 />}></Route>
          <Route path="/app6" element={<App6 />}></Route>
          <Route path="/app7" element={<App7 />}></Route>
+         <Route path="/app8" element={<App8 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
