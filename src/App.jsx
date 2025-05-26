@@ -32,6 +32,11 @@ function App() {
          <Route path="/app8" element={<App8 />}></Route>
          <Route path="/app9" element={<App9 />}></Route>
          <Route path="/app10" element={<App10 />}></Route>
+         <Route path="/app11" element={<App10 />}></Route>
+         <Route path="/app12" element={<App10 />}></Route>
+         <Route path="/app13" element={<App10 />}></Route>
+         <Route path="/app14" element={<App10 />}></Route>
+         <Route path="/app15" element={<App10 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
