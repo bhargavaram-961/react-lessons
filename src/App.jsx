@@ -22,6 +22,8 @@ import App17 from "./Components/App17";
 import App18 from "./Components/App18";
 import App19 from "./Components/App19";
 import App20 from "./Components/App20";
+import App21 from "./Components/App21";
+import App22 from "./Components/App22";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import "./App.css";
@@ -52,6 +54,8 @@ function App() {
          <Route path="/app18" element={<App18 />}></Route>
          <Route path="/app19" element={<App19 />}></Route>
          <Route path="/app20" element={<App20 />}></Route>
+         <Route path="/app21" element={<App21 />}></Route>
+         <Route path="/app22" element={<App22 />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
